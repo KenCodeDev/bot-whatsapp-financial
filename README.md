@@ -24,7 +24,7 @@
 * 💰 Record financial transactions
 * 📈 Track income and expenses
 * 📊 Financial reports
-* 🤖 Fully integrated with Telegram
+* 🤖 Fully integrated with WhatsApp
 * ⚡ Easy setup and deployment
 * 🌐 Open source and customizable
 
