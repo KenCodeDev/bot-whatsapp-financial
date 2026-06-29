@@ -51,84 +51,8 @@ https://nodejs.org/dist/v24.16.0/node-v24.16.0-x64.msi
 
 ---
 
-## Membuat Bot WhatsApp
 
-### 1. Cari BotFather
-
-Cari username **@BotFather** di Telegram.
-
-![BotFather](https://files.catbox.moe/n3jxzc.png)
-
----
-
-### 2. Jalankan BotFather
-
-Tekan tombol **START**.
-
-> Jika tombol START tidak muncul, silakan abaikan langkah ini dan lanjutkan ke langkah berikutnya.
-
-![Start](https://files.catbox.moe/k6wfi4.png)
-
----
-
-### 3. Buat Bot Baru
-
-Ketik dan kirim:
-
-```text
-/newbot
-```
-
-![New Bot](https://files.catbox.moe/14yf08.png)
-
----
-
-### 4. Tentukan Nama dan Username
-
-Masukkan:
-
-* Nama bot
-* Username bot
-
-**Username harus diakhiri dengan kata `bot`.**
-
-Contoh:
-
-```text
-Nama Bot     : Financial Assistant
-Username Bot : financialassistantbot
-```
-
-> Jika username sudah digunakan, pilih username lain.
-
-![Username](https://files.catbox.moe/xlj4o2.png)
-
----
-
-### 5. Simpan Bot Token
-
-Setelah bot berhasil dibuat, BotFather akan memberikan token.
-
-Salin token tersebut karena akan digunakan pada file `.env`.
-
-![Token](https://files.catbox.moe/xzy8z6.png)
-
----
-
-# Menjalankan Bot
-
-> **Catatan**
->
-> Pastikan kamu memiliki tempat untuk menjalankan bot:
->
-> * PC/Desktop pribadi
-> * VPS/Server
->
-> Jika belum memiliki server, kamu bisa menyewa server harian di **RevsCloud** dengan minimal masa sewa **3 hari**. Harga mulai dari sekitar **Rp5.000 untuk 3 hari**.
-
----
-
-## 1. Download Repository
+## Cara Download Repository
 
 ### Download ZIP
 
@@ -149,16 +73,6 @@ git clone https://github.com/KenCodeDev/bot-telegram-financial.git
 Jika menggunakan ZIP, ekstrak file terlebih dahulu.
 
 ---
-
-## 3. Konfigurasi Token
-
-Buka file `.env`.
-
-Masukkan token bot pada bagian:
-
-```env
-BOT_TOKEN=TOKEN_BOT_KAMU
-```
 
 ---
 
@@ -182,11 +96,41 @@ Tunggu hingga proses selesai.
 
 ---
 
-## 6. Jalankan Bot
+## Menjalankan Bot WhatsApp
+
+### 1. Masukkan Nomor WhatsApp yang mau dijadikan Bot
+
+Masukkan Nomor WhatsApp kedalam file .env
+
+![WhatsAppNumber](https://files.catbox.moe/h6d4yy.png)
+
+---
+
+### 2. Jalankan Script
+
+Jalankan Code dengan memasukkan command berikut di Command Prompt
+
+![Start](https://files.catbox.moe/silngs.png)
 
 ```bash
-node .
+node index.js
 ```
+
+lalu tekan *Enter* untuk menjalankan command
+
+---
+
+> **Catatan**
+>
+> Pastikan kamu memiliki tempat untuk menjalankan bot:
+>
+> * PC/Desktop pribadi
+> * VPS/Server
+>
+> Jika belum memiliki server, kamu bisa menyewa server harian di **RevsCloud** dengan minimal masa sewa **3 hari**. Harga mulai dari sekitar **Rp5.000 untuk 3 hari**.
+
+---
+
 
 ---
 
@@ -219,7 +163,7 @@ node .
 
 ## 🎉 Selesai
 
-Jika seluruh langkah telah dilakukan dengan benar, bot Telegram kamu akan berjalan dan siap digunakan.
+Jika seluruh langkah telah dilakukan dengan benar, bot WhatsApp kamu akan berjalan dan siap digunakan.
 
 ---
 
@@ -237,86 +181,9 @@ https://nodejs.org/dist/v24.16.0/node-v24.16.0-x64.msi
 
 ---
 
-## Creating a Telegram Bot
+## Download the Repository
 
-### 1. Find BotFather
-
-Search for **@BotFather** on Telegram.
-
-![BotFather](https://files.catbox.moe/n3jxzc.png)
-
----
-
-### 2. Start BotFather
-
-Press the **START** button.
-
-> If the START button is not available, simply skip this step.
-
-![Start](https://files.catbox.moe/k6wfi4.png)
-
----
-
-### 3. Create a New Bot
-
-Send:
-
-```text
-/newbot
-```
-
-![New Bot](https://files.catbox.moe/14yf08.png)
-
----
-
-### 4. Choose a Name and Username
-
-Enter:
-
-* Bot name
-* Bot username
-
-**The username must end with `bot`.**
-
-Example:
-
-```text
-Bot Name     : Financial Assistant
-Bot Username : financialassistantbot
-```
-
-> If the username is already taken, choose another one.
-
-![Username](https://files.catbox.moe/xlj4o2.png)
-
----
-
-### 5. Save the Bot Token
-
-BotFather will provide a token after the bot is created.
-
-Copy the token because it will be required in the `.env` file.
-
-![Token](https://files.catbox.moe/xzy8z6.png)
-
----
-
-# Running the Bot
-
-> **Note**
->
-> Make sure you have a place to run your bot:
->
-> * Personal PC/Desktop
-> * VPS/Server
->
-> If you don't have a server, you can rent a daily VPS from **RevsCloud** with a minimum rental period of **3 days**. Prices start from approximately **IDR 5,000 for 3 days**.
-
----
-
-## 1. Download the Repository
-
-### ZIP Download
+### Download ZIP
 
 ```text
 https://github.com/KenCodeDev/bot-telegram-financial/archive/refs/tags/v1.0.0.zip
@@ -330,31 +197,21 @@ git clone https://github.com/KenCodeDev/bot-telegram-financial.git
 
 ---
 
-## 2. Extract Files
+## 2. Extract the Files
 
-If you downloaded the ZIP version, extract it first.
-
----
-
-## 3. Configure Token
-
-Open the `.env` file.
-
-Insert your token:
-
-```env
-BOT_TOKEN=YOUR_BOT_TOKEN
-```
+If you downloaded the ZIP file, extract it first.
 
 ---
 
-## 4. Open Terminal
+---
 
-Navigate to the project directory and open:
+## 4. Open a Terminal
+
+Navigate to the project folder and open one of the following:
 
 * Command Prompt
 * PowerShell
-* Terminal
+* Windows Terminal
 
 ---
 
@@ -364,21 +221,48 @@ Navigate to the project directory and open:
 npm install
 ```
 
-Wait until all dependencies are installed.
+Wait until the installation process is complete.
 
 ---
 
-## 6. Start the Bot
+## Running the WhatsApp Bot
+
+### 1. Set the WhatsApp Number
+
+Enter the WhatsApp number you want to use as the bot inside the `.env` file.
+
+![WhatsAppNumber](https://files.catbox.moe/h6d4yy.png)
+
+---
+
+### 2. Start the Bot
+
+Run the following command in Command Prompt, PowerShell, or Windows Terminal:
+
+![Start](https://files.catbox.moe/silngs.png)
 
 ```bash
-node .
+node index.js
 ```
+
+Then press **Enter** to start the bot.
+
+---
+
+> **Note**
+>
+> Make sure you have a place to run the bot, such as:
+>
+> * Your personal PC/Desktop
+> * A VPS/Server
+>
+> If you don't have a server yet, you can rent a daily VPS from **RevsCloud** with a minimum rental period of **3 days**. Prices start at approximately **Rp5,000 for 3 days**.
 
 ---
 
 ## Troubleshooting
 
-### Error: node is not recognized
+### Error: `node` is not recognized
 
 Example:
 
@@ -386,16 +270,16 @@ Example:
 'node' is not recognized as an internal or external command
 ```
 
-Cause:
+Possible causes:
 
-* Node.js is not installed
-* The computer has not been restarted after installation
+* Node.js is not installed.
+* Your computer has not been restarted after installing Node.js.
 
 Solution:
 
-1. Install Node.js
-2. Restart your computer
-3. Run:
+1. Install Node.js.
+2. Restart your computer.
+3. Run the following command again:
 
 ```bash
 node .
@@ -405,4 +289,4 @@ node .
 
 ## 🎉 Done
 
-If everything was completed correctly, your Telegram bot should now be running and ready to use.
+If you've completed all the steps correctly, your Telegram bot should now be running and ready to use.
