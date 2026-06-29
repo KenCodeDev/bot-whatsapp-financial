@@ -289,4 +289,4 @@ node .
 
 ## 🎉 Done
 
-If you've completed all the steps correctly, your Telegram bot should now be running and ready to use.
+If you've completed all the steps correctly, your WhatsApp bot should now be running and ready to use.
