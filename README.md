@@ -57,13 +57,13 @@ https://nodejs.org/dist/v24.16.0/node-v24.16.0-x64.msi
 ### Download ZIP
 
 ```text
-https://github.com/KenCodeDev/bot-telegram-financial/archive/refs/tags/v1.0.0.zip
+https://github.com/KenCodeDev/bot-whatsapp-financial/archive/refs/tags/v1.0.0.zip
 ```
 
 ### Git Clone
 
 ```bash
-git clone https://github.com/KenCodeDev/bot-telegram-financial.git
+git clone https://github.com/KenCodeDev/bot-whatsapp-financial.git
 ```
 
 ---
@@ -186,13 +186,13 @@ https://nodejs.org/dist/v24.16.0/node-v24.16.0-x64.msi
 ### Download ZIP
 
 ```text
-https://github.com/KenCodeDev/bot-telegram-financial/archive/refs/tags/v1.0.0.zip
+https://github.com/KenCodeDev/bot-whatsapp-financial/archive/refs/tags/v1.0.0.zip
 ```
 
 ### Git Clone
 
 ```bash
-git clone https://github.com/KenCodeDev/bot-telegram-financial.git
+git clone https://github.com/KenCodeDev/bot-whatsapp-financial.git
 ```
 
 ---
