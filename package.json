@@ -1,0 +1,30 @@
+{
+  "name": "botwa-financereport-content",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenCodeDev/bot-telegram-financial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/KenCodeDev/bot-telegram-financial/issues"
+  },
+  "homepage": "https://github.com/KenCodeDev/bot-telegram-financial#readme",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^7.0.0-rc13",
+    "better-sqlite3": "^12.10.1",
+    "dotenv": "^17.4.2",
+    "exceljs": "^4.4.0",
+    "groq-sdk": "^1.2.1",
+    "pdfkit": "^0.19.1",
+    "pino": "^10.3.1"
+  }
+}
