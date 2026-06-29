@@ -2,7 +2,7 @@
 
 # 💰 Bot WhatsApp Financial
 
-### Manage Your Finance Directly Through Telegram
+### Manage Your Finance Directly Through WhatsApp
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1200&color=61E143&center=true&vCenter=true&width=800&lines=Track+Income+and+Expenses;Manage+Your+Finance+with+Telegram;Simple+%7C+Fast+%7C+Open+Source;Powered+by+Node.js" alt="Typing SVG" />
 
